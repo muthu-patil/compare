@@ -56,7 +56,7 @@ cd $dataExtractionPath
 
 sleep 1
 
-#echo 'comparing the csv files'
+#echo 'comparing the two csv files with cloumns'
 #cd $resultsPath
 # grep -v -f $outputFileName.csv "$outputFileName"_expect.csv  > "$outputFileName"_results.csv
 # python3 csvcompare.py -e "$outputFileName"_expect.csv -a $outputFileName.csv -o "$outputFileName"_results.csv
